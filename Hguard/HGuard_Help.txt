@@ -1,0 +1,72 @@
+[HGuard1_v6.HG]
+LogPlayersInfo=True/False
+Log Players name and IP and process/module info
+
+LogNonWindows=True/False
+Log players using Linux
+
+LogWhiteListKicks=True/False
+The white list is a list of procs/mods that are allowable. This was never really used since you would have to list ALL acceptable procs and mods (KProcs/KMods) and this may be nearly impossible.
+
+AllowNonWindows=True/False
+Allow Linux players (Linux isn't checked but no worries)
+
+AllowUnknownMods=True/False
+Allow procs not in white list (KProcs)
+
+AllowUnknownProcs=True/False
+Allow mods not in white list (KMods)
+
+SecLevel=0/1/2
+0=log, 1=kick, 2=kick and ban
+
+CheckInterval=60
+Check procs/mods every 60 seconds
+
+DLLLocation="http://members.shaw.ca/hoser762/UBrowser.dll"
+Internet URL where the dll is located
+
+HelpLocation="http://www.utdemo.com/forums/index.php?board=28.0"
+Forums to go to when things go wrong
+
+CurrentVersion="1.0.5"
+Current version of dll. This is used for verifying that the player has the right version of dll.
+
+ShowVersion=True/False
+Show the version info when player joins.
+
+CheatProcs[0]="Helios"
+CheatProcs[1]="Elf"
+CheatProcs[2]="Milk"
+CheatProcs[3]="Box"
+CheatProcs[4]="Grief"
+CheatProcs[5]="Sham"
+CheatProcs[6]="Loader"
+CheatProcs[7]="SpeedGear"
+
+KProcs[0]="UCC.exe"
+KProcs[1]="avgcc.exe"
+KProcs[2]="napster.exe"
+KProcs[3]="LYRAHD2TrayApp.exe"
+KProcs[4]="avgas.exe"
+KProcs[5]="avgamsvr.exe"
+KProcs[6]="avgupsvc.exe"
+KProcs[7]="avgemc.exe"
+KProcs[8]="ws_ftp95.exe"
+KProcs[9]="Netscp.exe"
+KProcs[10]="cw32.exe"
+KProcs[11]="msdev.exe"
+KProcs[12]="guard.exe"
+KProcs[13]="cmd.exe"
+
+CheatMods[0]="Helios"
+CheatMods[1]="Elf"
+CheatMods[2]="Milk"
+CheatMods[3]="Box"
+CheatMods[4]="Grief"
+CheatMods[5]="Sham"
+CheatMods[6]="Loader"
+
+KMods[0]="rsvpsp.dll"
+KMods[1]="LgKbdHk.dll"
+KMods[2]="shellexecutehook.dll"
